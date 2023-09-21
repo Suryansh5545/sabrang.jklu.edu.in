@@ -1,0 +1,11 @@
+version: '3'
+services:
+  nodejs_v1:
+    hostname: branding_nodejs_v1
+    build:
+      context: ./
+      dockerfile: docker/nginx/Dockerfile
+    ports:
+      - "5000:443"
+      - "3200:80"
+    container_name: branding_nodejs_v1

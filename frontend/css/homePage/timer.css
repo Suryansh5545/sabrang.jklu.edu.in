@@ -1,0 +1,51 @@
+.timer {
+    width: 100%;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #1A273C;
+}
+
+.syotimer-cell {
+    display: inline-block;
+    height: 110px;
+    width: 110px;
+    border-radius: 100px;
+    border: 2px solid #fff;
+    background: transparent;
+    text-align: center;
+    padding-top: 20px;
+    margin: 30px 20px;
+}
+
+.syotimer-cell__unit {
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.syotimer-cell__value {
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 45px;
+    color: #fff;
+}
+
+.syotimer-cell_type_day .syotimer-cell__value {
+    color: #ff007a;
+}
+
+.syotimer__body{
+    padding: 0px 50px;
+}
+
+@media(max-width: 375px) {
+    .syotimer-cell {
+        height: 90px;
+        width: 90px;
+        padding-top: 10px;
+    }
+}

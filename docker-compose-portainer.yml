@@ -9,3 +9,8 @@ services:
       - "5000:443"
       - "3200:80"
     container_name: branding_nodejs_v1
+
+networks:
+  default:
+    external: true
+    name: scoobydoo

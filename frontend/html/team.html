@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../sabrang/sources/sabrang-logo.png">
+    <title>Sabrang'23 - Like Never Before</title>
+    <link rel="stylesheet" href="../css/team.css">
+</head>
+
+<!-- <style>
+    /* Tooltip container */
+    .tooltip {
+      position: relative;
+      display: inline-block;
+      border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+    }
+    
+    /* Tooltip text */
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: black;
+      color: #fff;
+      text-align: center;
+      padding: 5px 0;
+      border-radius: 6px;
+     
+      /* Position the tooltip text - see examples below! */
+      position: absolute;
+      z-index: 1;
+    }
+    
+    /* Show the tooltip text when you mouse over the tooltip container */
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+    }
+
+    </style> -->
+
+<script>
+    // Get the tooltip element
+const tooltip = document.getElementById("tooltip");
+const tooltipContainer = document.getElementById("tooltipContainer");
+
+// Add a mousemove event listener to the tooltip container
+tooltipContainer.addEventListener("mousemove", (e) => {
+  // Calculate the new top and left values based on the mouse position
+  const top = e.clientY + 10; // Add 10px offset to position the tooltip below the cursor
+  const left = e.clientX + 10; // Add 10px offset to position the tooltip to the right of the cursor
+
+  // Set the top and left values for the tooltip
+  tooltip.style.top = top + "px";
+  tooltip.style.left = left + "px";
+
+  // Show the tooltip
+  tooltip.style.display = "block";
+});
+
+// Add a mouseout event listener to hide the tooltip when the mouse leaves the container
+tooltipContainer.addEventListener("mouseout", () => {
+  tooltip.style.display = "none";
+});
+
+</script>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <a href="../index.html"><img src="../sources/sabrang-word.png" alt="sabrang logo"></a>
+            </div>
+            <ul class="menu">
+                <li><a href="../html/home.html">HOME</a></li>
+                <li><a href="https://event.jklu.edu.in/">REGISTER</a></li>
+                <li><a href="/html/events.html">EVENTS</a></li>
+                <li><a href="/html/team.html">TEAM</a></li>
+                <li><a href="/html/gallery.html">GALLERY</a></li>
+                <li><a href="/html/sponsors.html">SPONSORS</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="mid">
+        <H1>ORGANIZERS</H1>
+        <div class="container">
+            <div class="square tooltip">
+                <img src="/sources/team-photos/Vidit Sharma.jpeg" alt="vidit-sharma">
+                <!-- <span class="tooltiptext">Organizing Head</span> -->
+                <h2 class="name">VIDIT SHARMA</h2>
+            </div>
+            <div class="square">
+                <img src="/sources/team-photos/Anmol Arora.jpeg" alt="anmol-arora">
+                <h2 class="name">ANMOL ARORA</h2>
+            </div>
+            <div class="square">
+                <img src="/sources/team-photos/Priyanka Manwani.jpeg" alt="Priyanka-manwani">
+                <h2 class="name">PRIYANKA MANWANI</h2>
+            </div>
+        </div>
+
+
+        <div class="core-team">
+            <h2 class="mid-head">Core Team</h2>
+            <div class="container-1">
+                <div class="square-1">
+                    <img src="/sources/team-photos/Akansha Singh.JPG" alt="Akansha-Singh">
+                    <h2>AKANSHA SINGH</h2>
+                </div>
+                <div class="square-1">
+                    <img src="/sources/team-photos/Devesh Gupta.jpg" alt="Devesh-Gupta">
+                    <h2>DEVESH GUPTA</h2>
+                </div>
+                <div class="square-1">
+                    <img src="/sources/team-photos/Ananya Sharma.JPG" alt="Ananya-Sharma">
+                    <h2>ANANYA SHARMA</h2>
+                </div>
+                <div class="square-1">
+                    <img src="/sources/team-photos/Anchal Agarwal.JPG" alt="Anchal-Agarwal">
+                    <h2>ANCHAL AGARWAL</h2>
+                </div>
+                <div class="square-1">
+                    <img src="/sources/team-photos/Ritika Bhola.jpg" alt="Ritika-Bhola">
+                    <h2>RITIKA BHOLA</h2>
+                </div>
+            </div>
+            <div class="container-1">
+                <div class="square-1">
+                    <img src="/sources/team-photos/Shreyasi Parate.JPG" alt="Shreyasi-Parate">
+                    <h2>SHREYASI PARATE</h2>
+                </div>
+                <div class="square-1">
+                    <img src="/sources/team-photos/Astha_Bohra.jpg" alt="Aastha-Bohra">
+                    <h2>AASTHA BOHRA</h2>
+                </div>
+                <div class="square-1">
+                    <img src="/sources/team-photos/Kushagra.jpg" alt="Kushagra-Pandey">
+                    <h2>KUSHAGRA PANDEY</h2>
+                </div>
+                <div class="square-1">
+                    <img src="/sources/team-photos/Rohan Rajesh.jpg" alt="Rohan-Rajesh">
+                    <h2>ROHAN RAJESH</h2>
+                </div>
+                <div class="square-1">
+                    <img src="/sources/team-photos/Divya Sharma.png" alt="Divya-Sharma">
+                    <h2>DIVYA SHARMA</h2>
+                </div>
+            </div>
+            <div class="container-1">
+                <div class="square-1">
+                    <img src="/sources/team-photos/Yamini Sharma.jpg" alt="Yamini-Sharma">
+                    <h2>YAMINI SHARMA</h2>
+                </div>
+                <div class="square-1">
+                    <img src="/sources/team-photos/Prashuk Jain.jpg" alt="Prashuk-Jain">
+                    <h2>PRASHUK JAIN</h2>
+                </div>
+                <div class="square-1">
+                    <img src="/sources/team-photos/Juhi Bhardwaj .jpg" alt="Juhi-Bhardwaj">
+                    <h2>JUHI BHARDWAJ</h2>
+                </div>
+                <div class="square-1">
+                    <img src="/sources/team-photos/Parth Sharma.jpeg" alt="Parth-Sharma">
+                    <h2>PARTH SHARMA</h2>
+                </div>
+                <div class="square-1">
+                    <img src="/sources/team-photos/Manan Pandya.jpg" alt="Manan-Pandya">
+                    <h2>MANAN PANDYA</h2>
+                </div>
+            </div>
+            <div class="container-1">
+                <div class="square-1">
+                    <img src="/sources/team-photos/Rahul Chaudhary.JPG" alt="Rahul-Chaudhary">
+                    <h2>RAHUL CHAUDHARY</h2>
+                </div>
+                <div class="square-1">
+                    <img src="/sources/team-photos/Rahul Saini.jpg" alt="Rahul-Saini">
+                    <h2>RAHUL SAINI</h2>
+                </div>
+                <div class="square-1">
+                    <img src="/sources/team-photos/Ritika Kuwera.JPG" alt="Ritika-Kuwera">
+                    <h2>RITIKA KUWERA</h2>
+                </div>
+                <div class="square-1">
+                    <img src="/sources/team-photos/Suryansh Pathak.jpg" alt="Suryansh-Pathak">
+                    <h2>SURYANSH PATHAK</h2>
+                </div>
+            </div>
+            <div class="container-last">
+                <div class="square-1">
+                    <img src="/sources/team-photos/Aditya Raj.jpg" alt="Aditya-Raj">
+                    <h2>ADITYA RAJ</h2>
+                </div>
+                <div class="square-1">
+                    <img src="/sources/team-photos/Vaibhav Chauhan.png" alt="Vaibhav-Chauhan">
+                    <h2>VAIBHAV CHAUHAN</h2>
+                </div>
+                <div class="square-1">
+                    <img src="/sources/team-photos/varun parmar.jpeg" alt="Varun-Parmar">
+                    <h2>VARUN PARMAR</h2>
+                </div>
+                <div class="square-1">
+                    <img src="/sources/team-photos/Ananya.jpeg" alt="Ananya">
+                    <h2>ANANYA</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+    </footer>
+</body>
+
+</html>

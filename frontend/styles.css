@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.logo {
+    width: 200px;
+    animation: zoom-in 1.2s ease 1.5s forwards;
+}
+
+.black-screen {
+    opacity: 0;
+    background-color: black;
+    animation: black-screen 1.2s ease 1.5s forwards;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+@keyframes zoom-in {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(10);
+    }
+}
+
+@keyframes black-screen {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

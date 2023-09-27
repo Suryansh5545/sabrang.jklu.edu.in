@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+}
+
+body {
+    background-color: black;
+    color: white;
+    animation: fade-in 2s ease forwards;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    border-bottom: 1px solid white;
+}
+
+.logo img {
+    flex: 1;
+    padding-top: 10px;
+    width: 280px;
+}
+
+.menu {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    list-style: none;
+    margin-right: 45px;
+    position: relative;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 3vh;
+    position: relative;
+}
+
+.menu li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    transition: width 0.3s ease;
+    transform-origin: left;
+}
+
+.menu li a:hover::after {
+    width: 100%;
+}
+
+.mid h1 {
+    margin: 40px;
+    padding-top: 30px;
+    font-size: 5vh;
+    padding-left: 50px;
+}
+
+.core-team {
+    padding: 15px;
+    margin-top: 100px;
+}
+
+.mid-head {
+    display: flex;
+    padding-left: 70px;
+    font-size: 5vh;
+}
+
+.container {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.square {
+    width: 25vw;
+    height: 45vh; 
+    border-radius: 40px;
+    border: 1px solid #eee;
+    background-color: transparent;
+    margin-right: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.square img {
+    width: 24vw;
+    height: 39vh;
+    border-top-left-radius: 36px;
+    border-top-right-radius: 36px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+
+.name {
+    border-top: 1px solid #eee;
+    padding: 5px 0;
+    font-weight: bold;
+}
+
+.container-1 {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container-last {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.square-1 {
+    width: 15vw; /* Adjust the width as needed */
+    height: 30vh; /* This makes it a square */
+    border-radius: 25px;
+    border: 1px solid #eee;
+    background-color: transparent;
+    margin-right: 10px; /* Adjust the margin between squares as needed */
+    text-align: center;
+    position: relative;
+}
+
+.square-last {
+    width: 15vw; /* Adjust the width as needed */
+    height: 30vh; /* This makes it a square */
+    border-radius: 25px;
+    border: 1px solid #eee;
+    background-color: transparent;
+    margin-right: 10px; /* Adjust the margin between squares as needed */
+    text-align: center;
+    position: relative;
+}
+
+.square-1-black {
+    width: 15vw; /* Adjust the width as needed */
+    height: 30vh; /* This makes it a square */
+    border-radius: 25px;
+    border: 1px solid black;
+    background-color: transparent;
+    margin-right: 10px; /* Adjust the margin between squares as needed */
+    text-align: center;
+    position: relative;
+}
+
+.square-1 img {
+    /* margin: 5px; */
+    width: 14vw;
+    height: 25vh;
+    border-top-left-radius: 23px;
+    border-top-right-radius: 23px;
+    padding-top: 6px;
+    padding-bottom: 3px;
+}
+
+.square-1 h2 {
+    border-top: 1px solid #eee;
+    padding: 5px 0;
+    font-size: 2vh;
+    font-weight: bold;
+}

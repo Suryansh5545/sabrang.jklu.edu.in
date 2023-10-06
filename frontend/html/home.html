@@ -7,26 +7,45 @@
     <link rel="icon" href="../sources/sabrang-logo.png">
     <title>Sabrang'23 - Like Never Before</title>
     <link rel="stylesheet" href="../css/home.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        integrity="sha512-nrFzH0AqDfFlrF7t0NCEbCJ3m/PaSnFHCehBq8VXnM2mP4uCP5CB8PdC++1zXuW/soSG2Kpvv8I/kFAMKduaRvQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css'>
 </head>
 
 <body>
-    
+
     <header>
         <div class="navbar">
             <div class="logo">
                 <a href="../index.html"><img src="../sources/sabrang-logo.png" alt="sabrang logo"></a>
             </div>
+            <!-- Mobile menu button -->
+        <div class="mobile-menu-button">
+            <div class="menu-icon">&#9776;</div>
+        </div>
+        
+  
+        <!-- Mobile menu (hidden by default) -->
+        <nav class="mobile-nav">
+            <ul class="mobile-menu-list">
+                <li><a href="../html/home.html">HOME</a></li>
+                <li><a href="https://event.jklu.edu.in/">REGISTER</a></li>
+                <li><a href="/html/events.html">EVENTS</a></li>
+                <li><a href="/html/team.html">TEAM</a></li>
+                <li><a href="/html/gallery.html">GALLERY</a></li>
+                <li><a href="/html/sponsors.html">SPONSORS</a></li>
+            </ul>
+        </nav>
             <ul class="menu">
                 <li><a href="../html/home.html">HOME</a></li>
+                <li><a href="https://event.jklu.edu.in/">REGISTER</a></li>
                 <li><a href="/html/events.html">EVENTS</a></li>
                 <li><a href="/html/team.html">TEAM</a></li>
                 <li><a href="/html/gallery.html">GALLERY</a></li>
                 <li><a href="/html/sponsors.html">SPONSORS</a></li>
             </ul>
         </div>
+
+        
     </header>
 
     <div id="particles-js"></div>
@@ -38,64 +57,68 @@
     </section>
 
     <section class="about">
-            <div class="text-container">
-                <div class="meta">
-                    <h1>M</h1>
-                    <h1>E</h1>
-                    <h1>T</h1>
-                    <h1>A</h1>
-                    <h1>M</h1>
-                    <h1>O</h1>
-                    <h1>R</h1>
-                    <h1>P</h1>
-                    <h1>H</h1>
-                    <h1>0</h1>
-                    <h1>S</h1>
-                    <h1>I</h1>
-                    <h1>S</h1>
-                </div>
+        <div class="text-container">
+            <div class="meta">
+                <h1>M</h1>
+                <h1>E</h1>
+                <h1>T</h1>
+                <h1>A</h1>
+                <h1>M</h1>
+                <h1>O</h1>
+                <h1>R</h1>
+                <h1>P</h1>
+                <h1>H</h1>
+                <h1>0</h1>
+                <h1>S</h1>
+                <h1>I</h1>
+                <h1>S</h1>
+            </div>
 
-                <p>Everything is changing, whether it is from larvas to butterflies OR from students to young
+            <div class="blurred-box">
+                <p>
+                    Everything is changing, whether it is from larvas to butterflies OR from students to young
                     responsible adults. This edition of sabrang embraces your transition, your entry to the outside
                     world. YOUR "METAMORPHOSIS".
-
+    
                     <br>
                     <br>
-
+    
                     This sabrang, you are the change, the big transition.
                 </p>
             </div>
+            
+        </div>
 
-            <div class="image-container">
-                <img src="../sources/sabrang-about.png" class="pic" alt="About Us Image 1" />
-            </div>
+        <div class="image-container">
+            <img src="../sources/sabrang-about.png" class="pic" alt="METAMORPHOSIS" />
+        </div>
     </section>
 
     <section class="mid-1">
         <h1>EVENTS</h1>
         <div class="container">
             <div id="slide">
-                <div class="item" style="background-image: url(../sources/event-1.jpeg);">
+                <div class="item" style="background-image: url(../sources/gallery-images/2.jpg);">
                     <div class="content">
                         <div class="name">FLAGSHIP</div>
                         <button>See more</button>
                     </div>
                 </div>
-                <div class="item" style="background-image: url(../sources/event-2.jpeg);">
+                <div class="item" style="background-image: url(../sources/gallery-images/45.jpg);">
                     <div class="content">
                         <div class="name">CULTURAL</div>
                         <button>See more</button>
                     </div>
                 </div>
-                <div class="item" style="background-image: url(../sources/event-3.jpeg);">
+                <div class="item" style="background-image: url(../sources/gallery-images/39.jpg);">
                     <div class="content">
                         <div class="name">MANAGEMENT</div>
                         <button>See more</button>
                     </div>
                 </div>
-                <div class="item" style="background-image: url(../sources/event-4.jpeg);">
+                <div class="item" style="background-image: url(../sources/gallery-images/30.jpg);">
                     <div class="content">
-                        <div class="name">TECH</div>
+                        <div class="name">TECH</div> 
                         <button>See more</button>
                     </div>
                 </div>
@@ -107,7 +130,7 @@
         </div>
     </section>
 
-    
+
     <footer>
         <hr>
         <div class="footer-content">
@@ -119,7 +142,7 @@
             </div>
             <div class="social-media">
                 <h3>Follow Us</h3>
-                <a href="https://www.instagram.com/jklusabrang/"><img src="/sources/icons/instagram-icon.png"
+                <a href="https://www.instagram.com/jklusabrang/"><img src="/sources/instagram-icon.png"
                         alt="Instagram"><br><br>Instagram</a>
             </div>
             <div class="google-maps">
@@ -131,12 +154,16 @@
         </div>
         <div class="copyright">
             <p>&copy; 2023 Sabrang. All rights reserved.</p>
+            <!-- <p>Created by <strong><a style="text-decoration: none; color: white;"
+                        href="https://github.com/adistrim">@adistrim</a></strong>, <strong>Vaibhav Chauhan</strong></p> -->
         </div>
     </footer>
 
     <script src="../js/home.js"></script>
     <script src="../js/particles.min.js"></script>
     <script src="../js/particles-custom.js"></script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js'></script>
 </body>
 
 </html>

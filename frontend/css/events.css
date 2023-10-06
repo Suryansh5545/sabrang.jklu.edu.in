@@ -83,10 +83,268 @@ body {
     width: 100%;
 }
 
-/* color: #FFF;
-text-align: center;
-font-family: Helvetica Now Display;
-font-size: 120px;
-font-style: normal;
-font-weight: 300;
-line-height: normal; */
+/*Events Slider by Vaibhav Chauhan*/
+
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(171,102,255,1) 0%, rgba(116,182,247,1) 90% );
+  overflow: hidden;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  width: 300px;
+  height: 410px;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+  filter: blur(1px);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: self-start;
+}
+
+.swiper-slide-active {
+  filter: blur(0px);
+}
+
+.swiper-pagination-bullet,
+.swiper-pagination-bullet-active {
+  background: #fff;
+}
+
+.swiper-slide span {
+  text-transform: uppercase;
+  color: #fff;
+  background: #1b7402;
+  padding: 7px 18px 7px 25px;
+  display: inline-block;
+  border-radius: 0 20px 20px 0px;
+  letter-spacing: 2px;
+  font-size: 0.8rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+/*Flagship*/
+.swiper-slide--flagship-one span,
+.swiper-slide--flagship-two span,
+.swiper-slide--flagship-three span,
+.swiper-slide--flagship-four span,
+.swiper-slide--flagship-five span {
+  background: #ff0000;
+}
+
+
+/*Cultural*/
+.swiper-slide--cultural-one span,
+.swiper-slide--cultural-two span,
+.swiper-slide--cultural-three span,
+.swiper-slide--cultural-four span,
+.swiper-slide--cultural-five span {
+  background: #087ac4;
+}
+
+/*Management*/
+.swiper-slide--management-one span,
+.swiper-slide--management-two span,
+.swiper-slide--management-three span {
+  background: #b45205;
+}
+
+/*Tech*/
+.swiper-slide--tech-one span,
+.swiper-slide--tech-two span,
+.swiper-slide--tech-three span {
+  background: #1b7402;
+}
+
+.swiper-slide h2 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 1.4;
+  margin-bottom: 15px;
+  padding: 25px 45px 0 25px;
+}
+
+.swiper-slide p {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  padding: 0 25px 35px 25px;
+}
+
+.swiper-slide svg {
+  color: #fff;
+  width: 22px;
+  height: 22px;
+  margin-right: 7px;
+}
+
+.swiper-slide--flagship-one {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(/sources/event-images/51.jpg)
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--flagship-two {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(/sources/event-images/52.jpg)
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--flagship-three {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(/sources/event-images/53.jpg)
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--flagship-four {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(/sources/event-images/54.jpg)
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--flagship-five {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(/sources/event-images/55.jpg)
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--cultural-one {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(/sources/event-images/68.jpg)
+      no-repeat 50% 50% / cover;
+}
+.swiper-slide--cultural-two {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(/sources/event-images/73.jpg)
+      no-repeat 50% 50% / cover;
+}
+.swiper-slide--cultural-three {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(/sources/event-images/69.jpg)
+      no-repeat 50% 50% / cover;
+}
+.swiper-slide--cultural-four {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(/sources/event-images/70.jpg)
+      no-repeat 50% 50% / cover;
+}
+.swiper-slide--cultural-five {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(/sources/event-images/72.jpg)
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--management-one {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(/sources/event-images/61.jpg)
+      no-repeat 50% 50% / cover;
+}
+.swiper-slide--management-two {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(/sources/event-images/64.jpg)
+      no-repeat 50% 50% / cover;
+}
+.swiper-slide--management-three {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(/sources/event-images/65.jpg)
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--tech-one {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(/sources/event-images/60.jpg)
+      no-repeat 50% 50% / cover;
+}
+.swiper-slide--tech-two {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(/sources/event-images/63.jpg)
+      no-repeat 50% 50% / cover;
+}
+.swiper-slide--tech-three {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(/sources/event-images/67.jpg)
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-3d .swiper-slide-shadow-left,
+.swiper-3d .swiper-slide-shadow-right {
+  background-image: none;
+}
+
+/* Your existing CSS styles */
+
+/* Mobile Menu Styles */
+.mobile-menu-button {
+  display: none;
+  background-color: black;
+  color: white;
+  text-align: right;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.mobile-menu-button .menu-icon {
+    font-size: 24px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+
+.mobile-nav {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  background-color: black;
+  z-index: 1000;
+}
+
+.mobile-menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.mobile-menu-list li {
+  margin: 15px 0;
+}
+
+.mobile-menu-list a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+  .menu {
+      display: none;
+  }
+
+  .mobile-menu-button {
+      display: block;
+  }
+
+  .mobile-nav.active {
+      display: block;
+  }
+}

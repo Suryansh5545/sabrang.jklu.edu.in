@@ -12,3 +12,12 @@ $(document).ready(function () {
         $("#myModal").modal();
     });
 });//EOF Document.ready
+
+
+// JavaScript for mobile menu toggle
+const mobileMenuButton = document.querySelector(".mobile-menu-button");
+const mobileNav = document.querySelector(".mobile-nav");
+
+mobileMenuButton.addEventListener("click", function () {
+    mobileNav.classList.toggle("active");
+});

@@ -7,63 +7,8 @@
     <link rel="icon" href="../sabrang/sources/sabrang-logo.png">
     <title>Sabrang'23 - Like Never Before</title>
     <link rel="stylesheet" href="../css/team.css">
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css'>
 </head>
-
-<!-- <style>
-    /* Tooltip container */
-    .tooltip {
-      position: relative;
-      display: inline-block;
-      border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
-    }
-    
-    /* Tooltip text */
-    .tooltip .tooltiptext {
-      visibility: hidden;
-      width: 120px;
-      background-color: black;
-      color: #fff;
-      text-align: center;
-      padding: 5px 0;
-      border-radius: 6px;
-     
-      /* Position the tooltip text - see examples below! */
-      position: absolute;
-      z-index: 1;
-    }
-    
-    /* Show the tooltip text when you mouse over the tooltip container */
-    .tooltip:hover .tooltiptext {
-      visibility: visible;
-    }
-
-    </style> -->
-
-<script>
-    // Get the tooltip element
-const tooltip = document.getElementById("tooltip");
-const tooltipContainer = document.getElementById("tooltipContainer");
-
-// Add a mousemove event listener to the tooltip container
-tooltipContainer.addEventListener("mousemove", (e) => {
-  // Calculate the new top and left values based on the mouse position
-  const top = e.clientY + 10; // Add 10px offset to position the tooltip below the cursor
-  const left = e.clientX + 10; // Add 10px offset to position the tooltip to the right of the cursor
-
-  // Set the top and left values for the tooltip
-  tooltip.style.top = top + "px";
-  tooltip.style.left = left + "px";
-
-  // Show the tooltip
-  tooltip.style.display = "block";
-});
-
-// Add a mouseout event listener to hide the tooltip when the mouse leaves the container
-tooltipContainer.addEventListener("mouseout", () => {
-  tooltip.style.display = "none";
-});
-
-</script>
 
 <body>
     <header>
@@ -71,6 +16,23 @@ tooltipContainer.addEventListener("mouseout", () => {
             <div class="logo">
                 <a href="../index.html"><img src="../sources/sabrang-word.png" alt="sabrang logo"></a>
             </div>
+            <!-- Mobile menu button -->
+        <div class="mobile-menu-button">
+            <div class="menu-icon">&#9776;</div>
+        </div>
+        
+  
+        <!-- Mobile menu (hidden by default) -->
+        <nav class="mobile-nav">
+            <ul class="mobile-menu-list">
+                <li><a href="../html/home.html">HOME</a></li>
+                <li><a href="https://event.jklu.edu.in/">REGISTER</a></li>
+                <li><a href="/html/events.html">EVENTS</a></li>
+                <li><a href="/html/team.html">TEAM</a></li>
+                <li><a href="/html/gallery.html">GALLERY</a></li>
+                <li><a href="/html/sponsors.html">SPONSORS</a></li>
+            </ul>
+        </nav>
             <ul class="menu">
                 <li><a href="../html/home.html">HOME</a></li>
                 <li><a href="https://event.jklu.edu.in/">REGISTER</a></li>
@@ -80,129 +42,153 @@ tooltipContainer.addEventListener("mouseout", () => {
                 <li><a href="/html/sponsors.html">SPONSORS</a></li>
             </ul>
         </div>
+    
     </header>
+
+    <div id="particles-js"></div>
 
     <section class="mid">
         <H1>ORGANIZERS</H1>
         <div class="container">
-            <div class="square tooltip">
-                <img src="/sources/team-photos/Vidit Sharma.jpeg" alt="vidit-sharma">
-                <!-- <span class="tooltiptext">Organizing Head</span> -->
+            <div class="square">
+                <a href="https://www.linkedin.com/in/vidit-sharma-319874246/" target="_blank">
+                    <img src="/sources/team-photos/Vidit Sharma.jpeg" alt="vidit-sharma"></a>
                 <h2 class="name">VIDIT SHARMA</h2>
+                <h2 class="designation">ORAGANIZING HEAD</h2>
             </div>
             <div class="square">
-                <img src="/sources/team-photos/Anmol Arora.jpeg" alt="anmol-arora">
+                <a href="https://www.linkedin.com/in/anmolarora23/" target="_blank"><img src="/sources/team-photos/Anmol Arora.jpeg" alt="anmol-arora"></a>
                 <h2 class="name">ANMOL ARORA</h2>
+                <h2 class="designation">ORAGANIZING COMMITTEE</h2>
             </div>
             <div class="square">
-                <img src="/sources/team-photos/Priyanka Manwani.jpeg" alt="Priyanka-manwani">
+                <a href="https://www.linkedin.com/in/priyankamanwani/" target="_blank"><img src="/sources/team-photos/Priyanka Manwani.jpeg" alt="Priyanka-manwani"></a>
                 <h2 class="name">PRIYANKA MANWANI</h2>
+                <h2 class="designation">ORAGANIZING COMMITTEE</h2>
             </div>
         </div>
 
-
         <div class="core-team">
-            <h2 class="mid-head">Core Team</h2>
+            <p class="mid-head">Core Team</p>
             <div class="container-1">
                 <div class="square-1">
                     <img src="/sources/team-photos/Akansha Singh.JPG" alt="Akansha-Singh">
-                    <h2>AKANSHA SINGH</h2>
+                    <h2 class="name-1">AKANSHA SINGH</h2>
+                    <h2 class="designation-1">REGISTRATIONS</h2>
                 </div>
                 <div class="square-1">
-                    <img src="/sources/team-photos/Devesh Gupta.jpg" alt="Devesh-Gupta">
-                    <h2>DEVESH GUPTA</h2>
+                    <a href="https://www.linkedin.com/in/deveshgupta06/" target="_blank"><img src="/sources/team-photos/Devesh Gupta.jpg" alt="Devesh-Gupta"></a>
+                    <h2 class="name-1">DEVESH GUPTA</h2>
+                    <h2 class="designation-1">REGISTRATIONS</h2>
                 </div>
                 <div class="square-1">
-                    <img src="/sources/team-photos/Ananya Sharma.JPG" alt="Ananya-Sharma">
-                    <h2>ANANYA SHARMA</h2>
+                    <a href="https://www.linkedin.com/in/ananya-sharma-822b5b215/" target="_blank"><img src="/sources/team-photos/Ananya Sharma.JPG" alt="Ananya-Sharma"></a>
+                    <h2 class="name-1">ANANYA SHARMA</h2>
+                    <h2 class="designation-1">PRIZE & CERTIFICATE</h2>
                 </div>
                 <div class="square-1">
                     <img src="/sources/team-photos/Anchal Agarwal.JPG" alt="Anchal-Agarwal">
-                    <h2>ANCHAL AGARWAL</h2>
+                    <h2 class="name-1">ANCHAL AGARWAL</h2>
+                    <h2 class="designation-1">MEDIA</h2>
                 </div>
                 <div class="square-1">
-                    <img src="/sources/team-photos/Ritika Bhola.jpg" alt="Ritika-Bhola">
-                    <h2>RITIKA BHOLA</h2>
-                </div>
-            </div>
-            <div class="container-1">
-                <div class="square-1">
-                    <img src="/sources/team-photos/Shreyasi Parate.JPG" alt="Shreyasi-Parate">
-                    <h2>SHREYASI PARATE</h2>
+                    <a href="https://www.linkedin.com/in/ritikabhola7/" target="_blank"><img src="/sources/team-photos/Ritika Bhola.jpg" alt="Ritika-Bhola"></a>
+                    <h2 class="name-1">RITIKA BHOLA</h2>
+                    <h2 class="designation-1">MEDIA</h2>
                 </div>
                 <div class="square-1">
-                    <img src="/sources/team-photos/Astha_Bohra.jpg" alt="Aastha-Bohra">
-                    <h2>AASTHA BOHRA</h2>
+                    <a href="https://www.linkedin.com/in/shreyasiparate/" target="_blank"><img src="/sources/team-photos/Shreyasi Parate.JPG" alt="Shreyasi-Parate"></a>
+                    <h2 class="name-1">SHREYASI PARATE</h2>
+                    <h2 class="designation-1">DECORATIONS</h2>
                 </div>
                 <div class="square-1">
-                    <img src="/sources/team-photos/Kushagra.jpg" alt="Kushagra-Pandey">
-                    <h2>KUSHAGRA PANDEY</h2>
+                    <a href="https://www.linkedin.com/in/aastha-bohra-b3a11225b/" target="_blank"><img src="/sources/team-photos/Astha_Bohra.jpg" alt="Aastha-Bohra"></a>
+                    <h2 class="name-1">AASTHA BOHRA</h2>
+                    <h2 class="designation-1">TRANSPORTATION</h2>
                 </div>
                 <div class="square-1">
-                    <img src="/sources/team-photos/Rohan Rajesh.jpg" alt="Rohan-Rajesh">
-                    <h2>ROHAN RAJESH</h2>
+                    <a href="https://www.linkedin.com/in/kushagra-pandey-reachme/" target="_blank"><img src="/sources/team-photos/Kushagra.jpg" alt="Kushagra-Pandey"></a>
+                    <h2 class="name-1">KUSHAGRA PANDEY</h2>
+                    <h2 class="designation-1">SOCIAL MEDIA</h2>
                 </div>
                 <div class="square-1">
-                    <img src="/sources/team-photos/Divya Sharma.png" alt="Divya-Sharma">
-                    <h2>DIVYA SHARMA</h2>
+                    <a href="https://www.linkedin.com/in/rohanroro/" target="_blank"><img src="/sources/team-photos/Rohan Rajesh.jpg" alt="Rohan-Rajesh"></a>
+                    <h2 class="name-1">ROHAN RAJESH</h2>
+                    <h2 class="designation-1">DESIGN</h2>
                 </div>
-            </div>
-            <div class="container-1">
                 <div class="square-1">
-                    <img src="/sources/team-photos/Yamini Sharma.jpg" alt="Yamini-Sharma">
-                    <h2>YAMINI SHARMA</h2>
+                    <a href="https://www.linkedin.com/in/divya-sharma-profile/" target="_blank"><img src="/sources/team-photos/Divya Sharma.jpg" alt="Divya-Sharma"></a>
+                    <h2 class="name-1">DIVYA SHARMA</h2>
+                    <h2 class="designation-1">INTERNAL ARRANGEMENT</h2>
+                </div>
+                <div class="square-1">
+                    <a href="https://www.linkedin.com/in/yamini-sharma-700a89244/" target="_blank"><img src="/sources/team-photos/Yamini Sharma.jpg" alt="Yamini-Sharma"></a>
+                    <h2 class="name-1">YAMINI SHARMA</h2>
+                    <h2 class="designation-1">SPONSORSHIP</h2>
                 </div>
                 <div class="square-1">
                     <img src="/sources/team-photos/Prashuk Jain.jpg" alt="Prashuk-Jain">
-                    <h2>PRASHUK JAIN</h2>
+                    <h2 class="name-1">PRASHUK JAIN</h2>
+                    <h2 class="designation-1">SPONSORSHIP</h2>
                 </div>
                 <div class="square-1">
-                    <img src="/sources/team-photos/Juhi Bhardwaj .jpg" alt="Juhi-Bhardwaj">
-                    <h2>JUHI BHARDWAJ</h2>
+                    <a href="https://www.linkedin.com/in/prashuk-jain2905/"><img src="/sources/team-photos/Juhi Bhardwaj .jpg" alt="Juhi-Bhardwaj"></a>
+                    <h2 class="name-1">JUHI BHARDWAJ</h2>
+                    <h2 class="designation-1">PROMOTIONS</h2>
                 </div>
                 <div class="square-1">
-                    <img src="/sources/team-photos/Parth Sharma.jpeg" alt="Parth-Sharma">
-                    <h2>PARTH SHARMA</h2>
+                    <a href="https://www.linkedin.com/in/juhi-bhardwaj-56b654253/"><img src="/sources/team-photos/Parth Sharma.jpeg" alt="Parth-Sharma"></a>
+                    <h2 class="name-1">PARTH SHARMA</h2>
+                    <h2 class="designation-1">PHOTOGRAPHY</h2>
                 </div>
                 <div class="square-1">
-                    <img src="/sources/team-photos/Manan Pandya.jpg" alt="Manan-Pandya">
-                    <h2>MANAN PANDYA</h2>
-                </div>
-            </div>
-            <div class="container-1">
-                <div class="square-1">
-                    <img src="/sources/team-photos/Rahul Chaudhary.JPG" alt="Rahul-Chaudhary">
-                    <h2>RAHUL CHAUDHARY</h2>
+                    <a href="https://www.linkedin.com/in/manan-pandya-8478bb244/"><img src="/sources/team-photos/Manan Pandya.jpg" alt="Manan-Pandya"></a>
+                    <h2 class="name-1">MANAN PANDYA</h2>
+                    <h2 class="designation-1">PHOTOGRAPHY</h2>
                 </div>
                 <div class="square-1">
-                    <img src="/sources/team-photos/Rahul Saini.jpg" alt="Rahul-Saini">
-                    <h2>RAHUL SAINI</h2>
+                    <a href="https://www.linkedin.com/in/rahul-choudhary00/"><img src="/sources/team-photos/Rahul Chaudhary.JPG" alt="Rahul-Chaudhary"></a>
+                    <h2 class="name-1">RAHUL CHAUDHARY</h2>
+                    <h2 class="designation-1">DISCIPLINE</h2>
                 </div>
                 <div class="square-1">
-                    <img src="/sources/team-photos/Ritika Kuwera.JPG" alt="Ritika-Kuwera">
-                    <h2>RITIKA KUWERA</h2>
+                    <a href="https://www.linkedin.com/in/rahul-saini-30b20122a/"><img src="/sources/team-photos/Rahul Saini.jpg" alt="Rahul-Saini"></a>
+                    <h2 class="name-1">RAHUL SAINI</h2>
+                    <h2 class="designation-1">STAGE & VENUE</h2>
                 </div>
                 <div class="square-1">
-                    <img src="/sources/team-photos/Suryansh Pathak.jpg" alt="Suryansh-Pathak">
-                    <h2>SURYANSH PATHAK</h2>
-                </div>
-            </div>
-            <div class="container-last">
-                <div class="square-1">
-                    <img src="/sources/team-photos/Aditya Raj.jpg" alt="Aditya-Raj">
-                    <h2>ADITYA RAJ</h2>
+                    <a href="https://www.linkedin.com/in/ritikakuwera/"><img src="/sources/team-photos/Ritika Kuwera.JPG" alt="Ritika-Kuwera"></a>
+                    <h2 class="name-1">RITIKA KUWERA</h2>
+                    <h2 class="designation-1">FOOD & ACCOMMODATION</h2>
                 </div>
                 <div class="square-1">
-                    <img src="/sources/team-photos/Vaibhav Chauhan.png" alt="Vaibhav-Chauhan">
-                    <h2>VAIBHAV CHAUHAN</h2>
+                    <a href="https://www.linkedin.com/in/suryansh5545/"><img src="/sources/team-photos/Suryansh Pathak.jpg" alt="Suryansh-Pathak"></a>
+                    <h2 class="name-1">SURYANSH PATHAK</h2>
+                    <h2 class="designation-1">TICKETIFY DEV</h2>
                 </div>
                 <div class="square-1">
-                    <img src="/sources/team-photos/varun parmar.jpeg" alt="Varun-Parmar">
-                    <h2>VARUN PARMAR</h2>
+                    <a href="https://www.linkedin.com/in/adistrim/"><img src="/sources/team-photos/Aditya Raj.jpg" alt="Aditya-Raj"></a>
+                    <h2 class="name-1">ADITYA RAJ</h2>
+                    <h2 class="designation-1">WEB DEVELOPER</h2>
+                </div>
+                <div class="square-1">
+                    <a href="https://www.linkedin.com/in/vctech/"><img src="/sources/team-photos/Vaibhav Chauhan.png" alt="Vaibhav-Chauhan"></a>
+                    <h2 class="name-1">VAIBHAV CHAUHAN</h2>
+                    <h2 class="designation-1">WEB DEVELOPER</h2>
+                </div>
+                <div class="square-1">
+                    <a href="https://www.linkedin.com/in/varun-parmar-a25b9624a/"><img src="/sources/team-photos/varun parmar.jpeg" alt="Varun-Parmar"></a>
+                    <h2 class="name-1">VARUN PARMAR</h2>
+                    <h2 class="designation-1">WEB DESIGNER</h2>
                 </div>
                 <div class="square-1">
                     <img src="/sources/team-photos/Ananya.jpeg" alt="Ananya">
-                    <h2>ANANYA</h2>
+                    <h2 class="name-1">ANANYA</h2>
+                    <h2 class="designation-1">WEB DESIGNER</h2>
+                </div>
+                <div class="square-last">
+                </div>
+                <div class="square-last">
                 </div>
             </div>
         </div>
@@ -210,6 +196,10 @@ tooltipContainer.addEventListener("mouseout", () => {
 
     <footer>
     </footer>
+    <script src="../js/particles.min.js"></script>
+    <script src="../js/particles-custom.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js'></script>
+    <script  src="/js/team.js"></script>
 </body>
 
 </html>

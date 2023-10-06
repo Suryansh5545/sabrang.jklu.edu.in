@@ -48,21 +48,23 @@ body {
 .menu {
     list-style: none;
     text-decoration: none;
-    margin: 0;
-    padding: 0;
+    margin-top: 25px;
+    margin-bottom: 25px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .menu li {
     list-style: none;
     margin-right: 45px;
+    margin-bottom: 10px;
     position: relative;
 }
 
 .menu li a {
     text-decoration: none;
     color: white;
-    font-size: 3vh;
+    font-size: 3.5vh;
     position: relative;
 }
 
@@ -87,6 +89,7 @@ body {
 
 
 #gallery {
+    margin-top: 25px;
     -webkit-column-count: 4;
     -moz-column-count: 4;
     column-count: 4;
@@ -108,7 +111,7 @@ body {
     }
 }
 
-@media (max-width:800px) {
+@media (max-width:600px) {
     #gallery {
         -webkit-column-count: 2;
         -moz-column-count: 2;
@@ -120,7 +123,7 @@ body {
     }
 }
 
-@media (max-width:600px) {
+@media (max-width:300px) {
     #gallery {
         -webkit-column-count: 1;
         -moz-column-count: 1;
@@ -152,10 +155,69 @@ body {
 .img-responsive {
     border-radius: 10px;
     border: 2px solid black;
-    transition: border 0.3s; 
 }
 
 .img-responsive:hover {
     border: 2px solid white;
-    transition-delay: 2s;
+}
+
+/* Mobile Menu Styles */
+.mobile-menu-button {
+    display: none;
+    background-color: #0E0A0B;
+    color: white;
+    text-align: right;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.mobile-menu-button .menu-icon {
+    font-size: 24px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+
+.mobile-nav {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background-color: #0E0A0B;
+    z-index: 1000;
+}
+
+.mobile-menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.mobile-menu-list li {
+    margin: 15px 0;
+}
+
+.mobile-menu-list a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+
+    .mobile-menu-button {
+        display: block;
+        z-index: 2;
+    }
+
+    .mobile-nav.active {
+        display: block;
+    }
 }

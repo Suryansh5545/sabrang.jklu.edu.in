@@ -48,21 +48,23 @@ body {
 .menu {
     list-style: none;
     text-decoration: none;
-    margin: 0;
-    padding: 0;
+    margin-top: 1.5625rem;
+    /* Use rem for margin */
+    margin-bottom: 1.5625rem;
     display: flex;
 }
 
 .menu li {
     list-style: none;
-    margin-right: 45px;
+    margin-bottom: 0.625rem;
+    margin-right: 2.8125rem;
     position: relative;
 }
 
 .menu li a {
     text-decoration: none;
     color: white;
-    font-size: 3vh;
+    font-size: 3.5vh;
     position: relative;
 }
 
@@ -196,89 +198,89 @@ section {
 
 .swiper-slide--flagship-one {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url(/sources/event-images/51.jpg)
+    url(https://sabrang.blr1.cdn.digitaloceanspaces.com/sabrang/branding/event-images/51.jpg)
       no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--flagship-two {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url(/sources/event-images/52.jpg)
+    url(https://sabrang.blr1.cdn.digitaloceanspaces.com/sabrang/branding/event-images/52.jpg)
       no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--flagship-three {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url(/sources/event-images/53.jpg)
+    url(https://sabrang.blr1.cdn.digitaloceanspaces.com/sabrang/branding/event-images/53.jpg)
       no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--flagship-four {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url(/sources/event-images/54.jpg)
+    url(https://sabrang.blr1.cdn.digitaloceanspaces.com/sabrang/branding/event-images/54.jpg)
       no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--flagship-five {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url(/sources/event-images/55.jpg)
+    url(https://sabrang.blr1.cdn.digitaloceanspaces.com/sabrang/branding/event-images/55.jpg)
       no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--cultural-one {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url(/sources/event-images/68.jpg)
+    url(https://sabrang.blr1.cdn.digitaloceanspaces.com/sabrang/branding/event-images/68.jpg)
       no-repeat 50% 50% / cover;
 }
 .swiper-slide--cultural-two {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url(/sources/event-images/73.jpg)
+    url(https://sabrang.blr1.cdn.digitaloceanspaces.com/sabrang/branding/event-images/73.jpg)
       no-repeat 50% 50% / cover;
 }
 .swiper-slide--cultural-three {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url(/sources/event-images/69.jpg)
+    url(https://sabrang.blr1.cdn.digitaloceanspaces.com/sabrang/branding/event-images/69.jpg)
       no-repeat 50% 50% / cover;
 }
 .swiper-slide--cultural-four {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url(/sources/event-images/70.jpg)
+    url(https://sabrang.blr1.cdn.digitaloceanspaces.com/sabrang/branding/event-images/70.jpg)
       no-repeat 50% 50% / cover;
 }
 .swiper-slide--cultural-five {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url(/sources/event-images/72.jpg)
+    url(https://sabrang.blr1.cdn.digitaloceanspaces.com/sabrang/branding/event-images/72.jpg)
       no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--management-one {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url(/sources/event-images/61.jpg)
+    url(https://sabrang.blr1.cdn.digitaloceanspaces.com/sabrang/branding/event-images/61.jpg)
       no-repeat 50% 50% / cover;
 }
 .swiper-slide--management-two {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url(/sources/event-images/64.jpg)
+    url(https://sabrang.blr1.cdn.digitaloceanspaces.com/sabrang/branding/event-images/64.jpg)
       no-repeat 50% 50% / cover;
 }
 .swiper-slide--management-three {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url(/sources/event-images/65.jpg)
+    url(https://sabrang.blr1.cdn.digitaloceanspaces.com/sabrang/branding/event-images/65.jpg)
       no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--tech-one {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url(/sources/event-images/60.jpg)
+    url(https://sabrang.blr1.cdn.digitaloceanspaces.com/sabrang/branding/event-images/60.jpg)
       no-repeat 50% 50% / cover;
 }
 .swiper-slide--tech-two {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url(/sources/event-images/63.jpg)
+    url(https://sabrang.blr1.cdn.digitaloceanspaces.com/sabrang/branding/event-images/63.jpg)
       no-repeat 50% 50% / cover;
 }
 .swiper-slide--tech-three {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url(/sources/event-images/67.jpg)
+    url(https://sabrang.blr1.cdn.digitaloceanspaces.com/sabrang/branding/event-images/67.jpg)
       no-repeat 50% 50% / cover;
 }
 

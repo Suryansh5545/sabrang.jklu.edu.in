@@ -48,14 +48,16 @@ body {
 .menu {
     list-style: none;
     text-decoration: none;
-    margin: 0;
-    padding: 0;
+    margin-top: 1.5625rem;
+    /* Use rem for margin */
+    margin-bottom: 1.5625rem;
     display: flex;
 }
 
 .menu li {
     list-style: none;
-    margin-right: 45px;
+    margin-bottom: 0.625rem;
+    margin-right: 2.8125rem;
     position: relative;
 }
 
@@ -82,28 +84,34 @@ body {
 .menu li a:hover::after {
     width: 100%;
 }
+
 body {
     background-color: black;
-  }
-  
-  h1,h2,h3,h4,h5 {
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     color: white;
-  
-  }
-  
-  h1 {
+
+}
+
+h1 {
     text-align: center;
     font-size: 5rem;
-    
-  }
-  .row {
+
+}
+
+.row {
     width: 100%;
     margin-top: 25%;
-  }
+}
 
-  /* Mobile Menu Styles */
+/* Mobile Menu Styles */
 .mobile-menu-button {
     display: none;
     background-color: #0E0A0B;
@@ -150,7 +158,7 @@ body {
 
 /* Media Query for Mobile */
 @media (max-width: 768px) {
-    .row h1{
+    .row h1 {
         font-size: 3rem;
     }
 

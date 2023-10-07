@@ -74,7 +74,7 @@ body {
 .menu li a {
     text-decoration: none;
     color: white;
-    font-size: 1.21875rem;
+    font-size: 3.5vh;
     /* Use rem for font-size */
     position: relative;
 }

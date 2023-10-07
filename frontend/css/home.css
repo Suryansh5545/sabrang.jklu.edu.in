@@ -355,7 +355,6 @@ body {
     text-align: center;
 }
 
-.about p:after {}
 
 .blurred-box {
     margin-left: 6rem;
@@ -574,20 +573,23 @@ h3 {
     }
 
     .item:nth-child(2) {
-        left: 50%;
-        margin-top: 55vh;
+        /* left: 50%; */
+        /* margin-top: 55vh; */
+        display: none;
     }
 
     .item:nth-child(3) {
         /* left: calc(90% + 220px);
         border: 1px white solid; */
-        left: 50%;
-        margin-top: 55vh;
+        /* left: 50%;
+        margin-top: 55vh; */
+        display: none;
     }
 
     .item:nth-child(4) {
-        left: 50%;
-        margin-top: 55vh;
+        /* left: 50%;
+        margin-top: 55vh; */
+        display: none;
     }
 
     .item {
@@ -604,6 +606,13 @@ h3 {
 
     .item .name {
         font-size: 33px;
+        font-weight: bolder;
+        opacity: 0;
+        animation: showcontent 1s ease-in-out 1 forwards;
+    }
+
+    .item .name-management {
+        font-size: 24px;
         font-weight: bolder;
         opacity: 0;
         animation: showcontent 1s ease-in-out 1 forwards;

@@ -15,6 +15,10 @@ var swiper = new Swiper(".swiper", {
     pagination: {
       el: ".swiper-pagination",
       clickable: true
+    },
+    autoplay: {
+      delay: 1000,
+      disableOnInteraction: false,
     }
   });
 
